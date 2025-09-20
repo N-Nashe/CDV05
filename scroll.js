@@ -28,7 +28,7 @@ function closeWebsite() {
                 text-align: center; 
                 padding: 100px 20px; 
                 font-family: Arial, sans-serif;
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                background: linear-gradient(135deg, #667eea 0%, #3db68bff 100%);
                 color: white;
                 min-height: 100vh;
                 display: flex;
@@ -41,7 +41,7 @@ function closeWebsite() {
                 <p style="font-size: 1rem; margin-bottom: 40px; opacity: 0.8;"></p>
                 <button onclick="location.reload()" style="
                     background: white;
-                    color: #667eea;
+                    color: #37be95ff;
                     border: none;
                     padding: 15px 30px;
                     font-size: 1.1rem;

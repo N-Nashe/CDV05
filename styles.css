@@ -26,6 +26,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     min-height: 100vh;
+    background-color:#64748B
 }
 
 /* Nav-bar */
@@ -228,7 +229,7 @@ p {
     color: white;
 }
 
-/* Contact Section */
+/* Contact/footer Section */
 
 #contact {
     background: white;
@@ -259,4 +260,36 @@ p {
 #contact a:hover {
     background: var(--primary-color);
     color: white;
+}
+
+/* Responsive Design */
+
+/* Tablet Breakpoint (768px and below) */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+        max-width: 100%;
+    }
+    
+    nav {
+        padding: 12px 16px;
+        margin-bottom: 24px;
+        position: static;
+        top: auto;
+    }
+    
+    nav h2 {
+        font-size: 20px;
+    }
+    
+    nav ul {
+        gap: 12px;
+    }
+    
+    nav a {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+    
+
 }
