@@ -1,4 +1,3 @@
-
 /*General Styles */
 * {
     margin: 0;
@@ -157,6 +156,13 @@ p {
 }
 
 /* Contact Section */
+
+#contact{
+    background-color:#f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+   border-left: #2c5aa0 4px solid;
+}
 #contact p {
     font-size: 1.1rem;
     margin-bottom: 15px;
@@ -169,6 +175,18 @@ p {
 
 #contact a:hover {
     text-decoration: underline;
+}
+/* Color Variables 
+:root {
+    --primary: #10b981;
+    --primary-dark: #047857;
+    --secondary: #3b82f6;
+    --accent: #8b5cf6;
+    --success: #22c55e;
+    --text: #111827;
+    --text-light: #374151;
+    --bg-light: #f0fdf4;
+    --bg-card: #ffffff;
 }
 
 
