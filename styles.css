@@ -315,6 +315,52 @@ p {
         width: 100%;
         max-width: 200px;
     }
+
+        section {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+        margin-bottom: 16px;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+    }
+    
+    .skills {
+        gap: 8px;
+    }
+    
+    .skills li {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+    
+    .project {
+        padding: 20px;
+        margin-bottom: 16px;
+    }
+    
+    .project a {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    
+    #contact {
+        padding: 20px;
+    }
+    
+    #contact a {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    
     
 
 
