@@ -1,4 +1,4 @@
-// Simple auto-scroll tour for Munashe's Portfolio
+// Simple auto-scroll tour for My Portfolio
 
 function startTour() {
     const sections = ['#about', '#projects', '#contact'];
@@ -14,3 +14,9 @@ function startTour() {
     
     scrollNext();
 }
+
+// Close website functionality for "Nah" button
+function closeWebsite() {
+    
+}
+
