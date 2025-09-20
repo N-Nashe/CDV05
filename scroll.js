@@ -38,11 +38,27 @@ function closeWebsite() {
             ">
                 <h1 style="font-size: 3rem; margin-bottom: 20px;">🖐🏾 Website Closed!</h1>
                 <p style="font-size: 1.2rem; margin-bottom: 30px;">Thanks for considering My Portfolio!</p>
-                                <p style="font-size: 1rem; margin-bottom: 40px; opacity: 0.8;">Just kidding... 😄</p>
-                            </div>
-                        `;
-                    }, 500);
-                }
+                <p style="font-size: 1rem; margin-bottom: 40px; opacity: 0.8;"></p>
+                <button onclick="location.reload()" style="
+                    background: white;
+                    color: #667eea;
+                    border: none;
+                    padding: 15px 30px;
+                    font-size: 1.1rem;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    font-weight: bold;
+                    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+                    transition: transform 0.2s ease;
+                " onmouseover="this.style.transform='scale(1.05)'" 
+                   onmouseout="this.style.transform='scale(1)'">
+                    Let's go back! 👀
+                </button>
+            </div>
+        `;
+        document.body.style.opacity = "1";
+    }, 500);
+}
     
 
 
