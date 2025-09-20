@@ -387,6 +387,26 @@ p {
         padding: 4px 8px;
         font-size: 13px;
     }
+
+       
+    .hero {
+        padding: 30px 15px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+    }
     
+    .hero h1 {
+        font-size: 1.6rem;
+        margin-bottom: 12px;
+        line-height: 1.2;
+    }
+    
+    .hero p {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+    
+
+
  
 }
