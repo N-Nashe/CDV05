@@ -309,6 +309,7 @@ p {
     .cta-buttons {
         flex-direction: column;
         gap: 12px;
+        align-items: center;
     }
     
     .btn {
