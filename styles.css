@@ -156,3 +156,20 @@ p {
     text-decoration: underline;
 }
 
+/* Contact Section */
+#contact p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+#contact a {
+    color: #2c5aa0;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+
