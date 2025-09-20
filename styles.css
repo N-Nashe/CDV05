@@ -127,3 +127,32 @@ p {
     font-weight: bold;
 }
 
+/* Projects-section */
+.project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 4px solid #2c5aa0;
+}
+
+.project h3 {
+    color: #2c5aa0;
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.project a {
+    color: #2c5aa0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
