@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="scroll.js"></script>
      
     <title>Personal Portfolio Website</title>
 </head>
@@ -21,8 +22,8 @@
         <section class="hero">
             <h1>Hi, My name is Munashe Welcome to my website let's take you through!</h1>
             <div class="cta-buttons">
-                <a href="#projects" class="btn">Let's Go!</a>
-                 <a href="#projects" class="btn">Nah.</a>
+                <button onclick="startTour()" class="btn">Let's Go!</button>
+                <a href="#projects" class="btn">Nah.</a> 
             </div>
 
             
@@ -42,6 +43,28 @@
                 <li>Node.js</li>
                 <li>Git</li>
             </ul>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            
+            <div class="project">
+                <h3>Project One</h3>
+                <p>A responsive website built with HTML, CSS, and JavaScript.</p>
+                <a href="#">View Project</a> | <a href="#">GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3>Project Two</h3>
+                <p>A web application using React and modern development tools.</p>
+                <a href="#">View Project</a> | <a href="#">GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3>Project Three</h3>
+                <p>A full-stack application with database integration.</p>
+                <a href="#">View Project</a> | <a href="#">GitHub</a>
+            </div>
         </section>
       
     </container>
